@@ -1,3 +1,38 @@
+/* global settings */
+
+* {
+    list-style: none;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header settings */
+
+header {
+    display: flex;
+    margin-top: 4%;
+}
+
+header :first-child{
+    margin: 0;
+    flex: 2 1 0;
+}
+
+header :last-child {
+    display: flex;
+    flex: 1 1 0;
+}
+
+header > nav > ul > li {
+    flex: 2 1 auto;
+}
+
+header > nav > ul > li > a {
+    color: #0065FC;
+    text-decoration: none;
+    justify-content: center;
 }
