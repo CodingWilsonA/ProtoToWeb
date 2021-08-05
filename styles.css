@@ -14,25 +14,51 @@ body {
 
 header {
     display: flex;
-    margin-top: 4%;
+    height: 100px;
 }
 
-header :first-child{
-    margin: 0;
-    flex: 2 1 0;
-}
-
-header :last-child {
+header > figure {
     display: flex;
-    flex: 1 1 0;
+    align-items: center;
+    margin: 0;
+    flex: 3;
 }
 
-header > nav > ul > li {
-    flex: 2 1 auto;
+#navcontainer {
+    flex: 2;
+    position: relative;
 }
 
-header > nav > ul > li > a {
-    color: #0065FC;
-    text-decoration: none;
+#navbar {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navlink {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.navlink > a {
+    text-decoration: none;
+}
+
+.navlink:last-of-type {
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.navlink:hover {
+    border-top: solid;
+    border-color: #0065FC;
+}
+
+.navlink > a:hover {
+    color: #0065FC;
 }
