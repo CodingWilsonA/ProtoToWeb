@@ -25,25 +25,25 @@
     </header>
 <!--Housing options and search field-->
     <section>
-            <div>
+            <div id="housingtitle">
                 <h1>Trouver votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
             <form> <!--Autre balise nécessaire pour la version mobile-->
-                <div><i class="fas fa-map-marked-alt"></i></div>
-                <input type="search" name="searchfield" id="searchfield" value="Marseille, France" />
+                <div><i class="fas fa-map-marker-alt"></i></div>
+                <input type="search" name="searchfield" id="searchfield" value="Marseille, France"/>
                 <button>Rechercher</button>
             </form>
-            <div>
+            <div id="filtercontainer">
                 <h2>Filtres</h2>
-                <ul>
-                    <li><div><i class="fas fa-money-bill"></i></div>Économique</li>
-                    <li><div><i class="fas fa-child"></i></div>Familial</li>
-                    <li><div><i class="fas fa-heart"></i></div>Romantique</li>
-                    <li><div><i class="fas fa-dog"></i></div>Animaux autorisés</li>
+                <ul id="filterlist">
+                    <li><div class="filtericon"><i class="fas fa-money-bill"></i></div><p>Économique</p></li>
+                    <li><div class="filtericon"><i class="fas fa-child"></i></div><p>Familial</p></li>
+                    <li><div class="filtericon"><i class="fas fa-heart"></i></div><p>Romantique</p></li>
+                    <li><div class="filtericon"><i class="fas fa-dog"></i></div><p>Animaux autorisés</p></li>
                 </ul>
             </div>
-            <div>
+            <div id="filterResults">
                 <div>
                     <i class="fas fa-info"></i>
                 </div>
@@ -54,7 +54,7 @@
     <div id="housing">
         <section>
             <h2>Hébergements à Marseille</h2>
-            <ul> <!--Compléter avec le texte et les pictos étoiles-->
+            <ul>
                 <li>
                     <figure><img src="img/hebergements/4_small/cannebiere.jpg" alt="Auberge de la Cannebière"/></figure>
                     <h3>Auberge de la Cannebière</h3>
