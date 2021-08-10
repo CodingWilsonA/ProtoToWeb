@@ -1,4 +1,4 @@
-/* global settings */
+/*Global settings*/
 
 * {
     list-style: none;
@@ -10,55 +10,179 @@ body {
     margin: 0 auto;
 }
 
-/* header settings */
+/*Header settings*/
+
+/*Logo settings*/
 
 header {
     display: flex;
-    height: 100px;
 }
 
 header > figure {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    flex: 3;
+    margin: 30px 0px 0px 0px;
+    flex: 5;
 }
 
+/*Nav bar settings*/
+
 #navcontainer {
-    flex: 2;
-    position: relative;
+    flex: 3;
 }
 
 #navbar {
     display: flex;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    margin-top: 0;
+    padding-left: 0;
 }
 
 .navlink {
+    padding-top: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex: 1;
+    flex: 1 1 auto;
 }
 
 .navlink > a {
     text-decoration: none;
 }
 
-.navlink:last-of-type {
+.navlink:last-of-type a {
     color: #0065FC;
     font-weight: bold;
 }
 
 .navlink:hover {
     border-top: solid;
+    border-width: 2px;
     border-color: #0065FC;
+    padding-top: 38px;
 }
 
-.navlink > a:hover {
+.navlink:hover > a {
     color: #0065FC;
+}
+
+/*Housing options and search field*/
+
+/*Housing title*/
+
+#housingtitle {
+    margin-top: 20px;
+}
+
+#housingtitle > h1 {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#housingtitle > p {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+/*Housing search field*/
+
+form {
+    display: flex;
+    width: 30%;
+    margin-top: 20px;
+    border: solid 1px #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+}
+
+form > div {
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    flex: 2;
+}
+
+form > input {
+    flex: 5;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 5%;
+}
+
+form > button {
+    flex: 4;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/*Housing filters*/
+
+#filtercontainer > h2 {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#filtercontainer {
+    display: flex;
+    align-items: center;
+    width: 68%;
+}
+
+#filterlist {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding-left: 0;
+}
+
+#filterlist > li {
+    display: flex;
+    height: 42px;
+    align-items: center;
+    flex: 1 1 auto;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-color: lightgrey;
+    border-radius: 30px;
+    border-width: 2px;
+    margin-right: 20px;
+}
+
+.filtericon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    color: #0065FC;
+    border-radius: 30px;
+    background-color: #DEEBFF;
+    flex-shrink: 0;
+}
+
+#filterlist > li > p {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+/*Search results info*/
+
+#filterResults {
+    display: flex;
+    align-items: center;
+}
+
+#filterResults > div {
+    margin-right: 10px;
+    padding: 3px 10px 3px 10px;
+    color: #0065FC;
+    border: solid 2px #F2F2F2;
+    border-radius: 20px;
 }
