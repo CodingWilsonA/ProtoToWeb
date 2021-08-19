@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*Global settings*/
 
 * li {
@@ -1255,4 +1256,8 @@ footer h2, footer p {
 footer h2 {
     margin: 50px 0 30px 0;
 >>>>>>> bd7eb23 (Disposition des sections Activities et Footer)
+=======
+body {
+    font-family: 'Raleway', sans-serif;
+>>>>>>> 5780046 (Intégration de la police Raleway)
 }
