@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Reservia</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,13 +16,13 @@
             <figure>
                 <img src="img/logo/Reservia.svg" alt="Reservia logo"/>
             </figure>
-            <nav id="navcontainer">
-                <ul id="navbar">
-                    <li class="navlink"><a href="#housing">Hébergements</a></li>
-                    <li class="navlink"><a href="#activities">Activités</a></li>
-                    <li class="navlink"><a href="blank">S'inscrire</a></li>
-                </ul>
-            </nav>
+            <ul id="navbar1">
+                <li class="navlink"><a href="#housing">Hébergements</a></li>
+                <li class="navlink"><a href="#activities">Activités</a></li>
+            </ul>
+            <ul id="navbar2">
+                <li class="navlink"><a href="blank">S'inscrire</a></li>
+            </ul>
     </header>
 <!--Housing options and search field-->
     <section id="intro">
@@ -32,7 +33,7 @@
             <form> <!--Autre balise nécessaire pour la version mobile-->
                 <div><i class="fas fa-map-marker-alt"></i></div>
                 <input type="search" name="searchfield" id="searchfield" value="Marseille, France"/>
-                <button>Rechercher</button>
+                <button><span>Rechercher</span><i class="fas fa-search"></i></button>
             </form>
             <div id="filtercontainer">
                 <h2>Filtres</h2>
