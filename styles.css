@@ -726,6 +726,23 @@ footer h2 {
 
 @media screen and (max-width: 476px) {
 
+    form {
+        width: 100%;
+    }
+
+    form > div {
+        flex: 1;
+    }
+    
+    form > input {
+        flex: 6;
+    }
+    
+    form > button {
+        flex: 1;
+        border-radius: 15px 15px 15px 15px;
+    }
+
     #housingtitle h1 {
         font-size: 25px;
     }
@@ -779,23 +796,6 @@ footer h2 {
 }
 
 @media screen and (max-width: 405px) {
-    form {
-        width: 100%;
-    }
-
-    form > div {
-        flex: 1;
-    }
-    
-    form > input {
-        flex: 6;
-    }
-    
-    form > button {
-        flex: 1;
-        border-radius: 15px 15px 15px 15px;
-    }
-
     #filtercontainer {
         width: 100%;
     }
