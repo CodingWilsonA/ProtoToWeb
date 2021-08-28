@@ -4,17 +4,17 @@
     padding-left: 10px;
 }
 
-#housingtitle {
+#introtitle {
     margin-top: 20px;
 }
 
-#housingtitle > h1 {
+#introtitle > h1 {
     margin-bottom: 0;
     font-weight: bold;
     font-size: 20px;
 }
 
-#housingtitle > p {
+#introtitle > p {
     margin-top: 5px;
     font-size: 15px;
 }
@@ -116,12 +116,12 @@ button > .fa-search {
     flex-grow: 1;
 }
 
-#filterResults {
+#filterresults {
     align-items: center;
     margin-bottom: 20px;
 }
 
-#filterResults > div {
+#filterresults > div {
     margin-right: 10px;
     padding: 3px 8px 3px 8px;
     color: #0065FC;

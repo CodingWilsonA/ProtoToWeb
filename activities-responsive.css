@@ -1,6 +1,6 @@
 @media screen and (max-width: 1050px) {
 
-    .largeCard, .midCard, .smallCard {
+    .largecard, .midcard, .smallcard {
         width: 220px;
     }
     
@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 950px) {
 
-    .largeCard, .midCard, .smallCard {
+    .largecard, .midcard, .smallcard {
         width: 200px;
     }
 }
@@ -20,7 +20,7 @@
         align-items: center;
     }
 
-    .largeCard, .midCard, .smallCard {
+    .largecard, .midcard, .smallcard {
         margin: 0;
         width: 590px;
         height: 400px;
@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 660px) {
 
-    .largeCard, .midCard, .smallCard {
+    .largecard, .midcard, .smallcard {
         width: 440px;
         height: 200px;
     }
@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 476px) {
 
-    .largeCard, .midCard, .smallCard {
+    .largecard, .midcard, .smallcard {
         width: 330px;
         height: 120px;
     }
