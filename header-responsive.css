@@ -1,0 +1,44 @@
+@media screen and (max-width: 950px) {
+
+    header > figure {
+        flex: 3;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #navbar1 {
+        height: 100%;
+        margin: 0;
+        order: 1;
+        grid-row-start: 2;
+        grid-column-end: span 3;
+    }
+
+    #navbar1 .navlink {
+        padding: 10px 0;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    #navbar1 .navlink:hover {
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    } 
+
+    #navbar2 {
+        order: 2;
+    }
+
+    #navbar2 > .navlink {
+        border: none;
+    }
+
+    #navbar2 {
+        grid-column-start: 3;       
+    }
+}
