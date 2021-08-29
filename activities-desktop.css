@@ -29,18 +29,18 @@
     width: 270px;
 }
 
-.smallCard > img, .fourthcolumn img {
+.smallcard > img, .fourthcolumn img {
     object-position: top;
 }
 
-.largeCard {
+.largecard {
     height: 350px;
 }
 
-.midCard {
+.midcard {
     height: 150px;
 }
 
-.smallCard {
+.smallcard {
     height: 120px;
 }
