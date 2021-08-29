@@ -1,0 +1,79 @@
+@media screen and (max-width: 1050px) {
+
+    .largecard, .midcard, .smallcard {
+        width: 220px;
+    }
+    
+}
+
+@media screen and (max-width: 950px) {
+
+    .largecard, .midcard, .smallcard {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+    #activities > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .largecard, .midcard, .smallcard {
+        margin: 0;
+        width: 590px;
+        height: 400px;
+        margin: 5px 5px;
+        border-radius: 15px 15px 0 0;
+        overflow: hidden;
+    }
+
+    .firstcolumn, .secondcolumn > section, .thirdcolumn, .fourthcolumn > section {
+        width: 600px;
+        margin-bottom: 20px;
+    }
+    
+    #activities h3 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    .largecard, .midcard, .smallcard {
+        width: 440px;
+        height: 200px;
+    }
+
+    .firstcolumn, .secondcolumn > section, .thirdcolumn, .fourthcolumn > section {
+        width: 450px;
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+
+    #activities h2 {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 476px) {
+
+    .largecard, .midcard, .smallcard {
+        width: 330px;
+        height: 120px;
+    }
+    
+    .firstcolumn, .secondcolumn > section, .thirdcolumn, .fourthcolumn > section {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    #activities h2 {
+        margin-left: 20px;
+    }
+}
