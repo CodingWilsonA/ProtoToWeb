@@ -67,6 +67,11 @@
 }
 
 @media screen and (max-width: 476px) {
+    
+    #intro {
+        padding: 0;
+        margin: 20px 25px;
+    }
 
     #introtitle h1 {
         font-size: 25px;
@@ -78,29 +83,31 @@
 
     form > div {
         flex: 1;
-        background-color: #F2F2F2;
     }
     
     form > input {
-        flex: 6;
+        flex: 5;
     }
     
     form > button {
         flex: 1;
-        border-radius: 15px 15px 15px 15px;
+        border-radius: 15px;
     }
 
     #filtercontainer {
-        width: 80%;
+        width: 100%;
+    }
+
+    #filterlist {
+        justify-content: space-between;
+    }
+
+    .filterdot {
+        margin: 0 0 10px 0;
     }
 
     .filterdot p {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 405px) {
-    #filtercontainer {
-        width: 100%;
+        font-size: 17px;
+        margin: 0 15px;
     }
 }

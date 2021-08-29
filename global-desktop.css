@@ -18,11 +18,11 @@ header, #intro, #housing, #activities {
     margin: 0px 50px 0px 50px;
 }
 
-header, #navbar1, .navlink, form, form > div, #filtercontainer, #filterlist, .filterdot, .filtericon, #filterResults, #housing, #housingresults ul, #topfavorites > div, .favoritecard a, #activities > div, .firstcolumn, .secondcolumn, .thirdcolumn, .fourthcolumn, footer {
+header, header > ul:first-of-type, .navlink, form, form > div, #filtercontainer, #filterlist, .filterdot, .filtericon, #filterresults, #housing, #housingresults ul, #topfavorites > div, .favoritecard a, #activities > div, .firstcolumn, .secondcolumn, .thirdcolumn, .fourthcolumn, footer {
     display: flex;
 }
 
-.largeCard > img, .midCard > img, .smallCard > img, .housingcard figure img, .favoritecard figure img {
+.largecard > img, .midcard > img, .smallcard > img, .housingcard figure img, .favoritecard figure img {
     width: 100%;
     height: 100%;
     object-fit: cover;
