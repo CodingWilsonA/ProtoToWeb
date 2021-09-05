@@ -1,0 +1,1 @@
+Un nouveau design pour le site web Reservia basé sur les principes du Material Design a été proposé par Loïc, designer UI. Dans ce repo, il est transformé en une page web html et css avec une version desktop et responsive.
